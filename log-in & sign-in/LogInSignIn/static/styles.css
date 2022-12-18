@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #F6F6C9;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+}
+
+.navbar {
+  background-color: #153462;
+}
+
+.btn {
+  background-color: #4FA095;
+  border-radius: 5rem;
+  color: #F6F6C9;
+  font-size: 0.8rem;
+  right: 0;
+}
+.btn:hover, .btn :focus {
+  background-color: #F6F6C9;
+  color: #4FA095;
+}
+
+#welcomeSection {
+  background-image: url(images/home_bckg.svg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+#welcomeSection > h1 {
+  padding-top: 7rem;
+}
+
+#signin_form, #login_form {
+  color: #153462;
+  margin: 8rem 36rem 0;
+  padding: 1rem 2rem;
+}/*# sourceMappingURL=styles.css.map */

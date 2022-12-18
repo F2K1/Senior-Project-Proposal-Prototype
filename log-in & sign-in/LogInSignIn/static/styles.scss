@@ -1,0 +1,52 @@
+// Variables
+$prim_clr: #153462;
+$sec_clr: #F6F6C9;
+$ter_clr: #4FA095;
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: $sec_clr;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+}
+
+.navbar {
+    background-color: $prim_clr;
+}
+.btn {
+    background-color: $ter_clr;
+    border-radius: 5rem;
+    color: $sec_clr;
+    font-size: 0.8rem;
+    right: 0;
+
+    &:hover,:focus {
+        background-color: $sec_clr;
+        color: $ter_clr;
+    }
+}
+
+
+// Home Page
+#welcomeSection {
+    background-image: url(images/home_bckg.svg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+
+    &>h1{
+        padding-top: 7rem;
+    }
+}
+
+
+// Sign-In Page
+#signin_form, #login_form {
+    color: $prim_clr;
+    margin: 8rem 36rem 0;
+    padding: 1rem 2rem;
+}
